@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content">
+
+    <LinearLayout
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:layout_weight="2" >
+
+    <TextView
+        android:id="@+id/txtJudul"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textSize="25sp"
+        android:textStyle="bold"
+        android:text="Judul" />
+
+<!--    <TextView-->
+<!--        android:id="@+id/txtIsi"-->
+<!--        android:layout_width="match_parent"-->
+<!--        android:layout_height="wrap_content"-->
+<!--        android:textSize="17sp"-->
+<!--        android:text="TextView" />-->
+
+    </LinearLayout>
+<!--    <Button-->
+<!--        android:id="@+id/btnEdit"-->
+<!--        android:layout_width="0dp"-->
+<!--        android:layout_height="wrap_content"-->
+<!--        android:layout_marginRight="15sp"-->
+<!--        android:layout_margin="10dp"-->
+<!--        android:layout_weight="1"-->
+<!--        android:text="Edit" />-->
+
+<!--    <Button-->
+<!--        android:id="@+id/btnHapus"-->
+<!--        android:layout_width="0dp"-->
+<!--        android:layout_height="wrap_content"-->
+<!--        android:layout_weight="1"-->
+<!--        android:layout_margin="10dp"-->
+<!--        android:text="Hapus" />-->
+</LinearLayout>
